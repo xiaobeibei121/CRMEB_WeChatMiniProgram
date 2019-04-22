@@ -48,6 +48,7 @@ Page({
     wx.login({
       success: function (res) {
         // console.log(res);//获取code
+        // return;
         if (res.code) {
           userInfo.code = res.code;
           wx.request({

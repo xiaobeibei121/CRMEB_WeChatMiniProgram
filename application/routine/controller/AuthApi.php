@@ -340,6 +340,7 @@ class AuthApi extends AuthController{
         $lovely = GroupDataService::getData('routine_lovely')?:[];//banner图
         $seckill = StoreSeckill::where('is_del',0)->where('status',1)->where('start_time','<',time())->where('stop_time','>',time())->order('sort desc')->select()->toArray();
         $data['seckill'] = $seckill;
+        echo "<pre>";print_r($lovely);echo "<pre>";
         $data['lovely'] = $lovely[1];
         return JsonService::successful($data);
     }

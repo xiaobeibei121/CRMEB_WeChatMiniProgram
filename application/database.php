@@ -19,7 +19,7 @@ return [
     // 用户名
     'username'        => 'root',
     // 密码
-    'password'        => 'BPP128124',
+    'password'        => 'bpp121411',
 
     // 端口
     'hostport'        => '3306',
