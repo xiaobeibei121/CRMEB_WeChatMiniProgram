@@ -69,12 +69,12 @@
       <text>我的服务</text>
     </view>
     <view class='list-wrapper flex'>
-      <view class='item' bindtap='cut_down_the_price'>
+      <!-- <view class='item' bindtap='cut_down_the_price'>
         <navigator hover-class="none" url="/pages/mycut/mycut">
           <view class='iconfont icon-chongzhi'></view>
           <view class='text'>我的砍价</view>
         </navigator>
-      </view>
+      </view> -->
       <view class='item' bindtap='extension' wx:if="{{userinfo.is_promoter && userinfo.statu == 1}}">
         <navigator hover-class="none">
           <view class='iconfont icon-wodetuiguangren'></view>
