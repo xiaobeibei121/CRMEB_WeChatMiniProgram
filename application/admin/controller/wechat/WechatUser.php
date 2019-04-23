@@ -6,7 +6,7 @@ use app\admin\controller\AuthController;
 use service\FormBuilder as Form;
 use app\admin\model\user\User;
 use app\admin\model\wechat\WechatUser as UserModel;
-use app\wap\model\user\UserBill;
+use app\admin\model\user\UserBill;
 use service\JsonService;
 use service\UtilService as Util;
 use service\WechatService;
